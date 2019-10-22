@@ -347,6 +347,11 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.vsync_event_phase_offset_ns=2000000 \
     ro.surface_flinger.vsync_sf_event_phase_offset_ns=6000000
 
+# Mobile Network Settingvs v2
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    persist.vendor.ims.dropset_feature=0 \
+    persist.sys.fflag.override.settings_network_and_internet_v2=true
+
 # Telephony
 PRODUCT_PACKAGES += \
     telephony-ext \
