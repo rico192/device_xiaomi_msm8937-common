@@ -126,11 +126,6 @@ Return<bool> DisplayModes::setDisplayMode(int32_t modeID, bool makeDefault) {
         return false;
     }
 
-    if (ioctl(mFbDevFd, MSMFB_ENHANCE_SET_GAMMA, &modeID) != 0) {
-        LOG(ERROR) << "failed to set enhanced gamma";
-        return false;
-    }
-
     mActiveModeId = modeID;
 
     if (makeDefault && Utils::writeSavedModeId(mActiveModeId) != 0) {
