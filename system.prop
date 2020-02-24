@@ -190,3 +190,26 @@ telephony.lteOnCdmaDevice=1
 
 # Sim Selection Fix
 persist.vendor.radio.aosp_usr_pref_sel=true
+
+# FWK
+ro.vendor.qti.va_aosp.support=1
+ro.vendor.qti.va_odm.support=1
+
+# LMKD
+ro.lmk.low=1001
+ro.lmk.medium=800
+ro.lmk.critical=0
+ro.lmk.critical_upgrade=false
+ro.lmk.upgrade_pressure=100
+ro.lmk.downgrade_pressure=100
+ro.lmk.kill_heaviest_task=true
+ro.lmk.kill_timeout_ms=100
+ro.lmk.use_minfree_levels=true
+
+# Netflix
+ro.netflix.bsp_rev=Q660-13149-1
+
+# Memory optimizations
+ro.vendor.qti.sys.fw.bservice_enable=true
+ro.vendor.qti.sys.fw.bservice_limit=5
+ro.vendor.qti.sys.fw.bservice_age=5000
