@@ -1,3 +1,4 @@
+
 #
 # Copyright (C) 2016 The CyanogenMod Project
 #           (C) 2017-2018 The LineageOS Project
@@ -430,6 +431,13 @@ PRODUCT_PACKAGES += \
 
  PRODUCT_BOOT_JARS += \
     WfdCommon
+
+#XiaomiParts
+PRODUCT_PACKAGES += \
+    XiaomiAddon
+
+#PRODUCT_BOOT_JARS += \
+#   WfdCommon
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
