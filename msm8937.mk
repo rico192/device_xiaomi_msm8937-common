@@ -435,8 +435,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Inherit common proprietary files
 $(call inherit-product-if-exists, vendor/xiaomi/msm8937-common/msm8937-common-vendor.mk)
-=======
-export export HAVOC_BUILD_TYPE=Official
 
 # XiaomiParts
 PRODUCT_PACKAGES += \
