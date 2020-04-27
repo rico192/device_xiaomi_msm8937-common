@@ -582,9 +582,6 @@
     in hardware. -->
     <bool name="config_setColorTransformAccelerated">true</bool>
 
-    <!-- Maximum color temperature, in Kelvin, supported by Night display. -->
-    <integer name="config_nightDisplayColorTemperatureMax">5500</integer>
-
     <!-- Boolean indicating if current platform supports HFP inband ringing -->
     <bool name="config_bluetooth_hfp_inband_ringing_support">true</bool>
 
@@ -599,9 +596,7 @@
     <bool name="config_cleanupUnusedFingerprints">false</bool>
 
     <!-- Control whether Night display is available. This should only be enabled on devices with HWC 2 color transform support. -->
-    <bool name="config_nightDisplayAvailable">@bool/config_setColorTransformAccelerated</bool>
-
-    <bool name="config_setColorTransformAccelerated">true</bool>
+    <bool name="config_nightDisplayAvailable">true</bool>
 
     <!-- Default mode to control how Night display is automatically activated. -->
     <integer name="config_defaultNightDisplayAutoMode">0</integer>
